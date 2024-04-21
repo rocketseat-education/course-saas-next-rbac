@@ -8,6 +8,7 @@
     "@fastify/cors": "^9.0.1",
     "@prisma/client": "5.12.1",
     "@saas/auth": "workspace:*",
+    "bcryptjs": "^2.4.3",
     "fastify": "^4.26.2",
     "fastify-type-provider-zod": "^1.1.9",
     "zod": "^3.22.4"
@@ -16,6 +17,7 @@
     "@saas/eslint-config": "workspace:*",
     "@saas/prettier": "workspace:*",
     "@saas/tsconfig": "workspace:*",
+    "@types/bcryptjs": "^2.4.6",
     "@types/node": "^20.12.6",
     "prisma": "^5.12.1",
     "tsx": "^4.7.2"
