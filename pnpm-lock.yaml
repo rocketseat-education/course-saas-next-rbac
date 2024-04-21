@@ -38,6 +38,9 @@ importers:
       fastify:
         specifier: ^4.26.2
         version: 4.26.2
+      fastify-plugin:
+        specifier: ^4.5.1
+        version: 4.5.1
       fastify-type-provider-zod:
         specifier: ^1.1.9
         version: 1.1.9(fastify@4.26.2)(zod@3.22.4)
