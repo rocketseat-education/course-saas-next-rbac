@@ -6,6 +6,7 @@
   },
   "dependencies": {
     "@fastify/cors": "^9.0.1",
+    "@prisma/client": "5.12.1",
     "@saas/auth": "workspace:*",
     "fastify": "^4.26.2",
     "fastify-type-provider-zod": "^1.1.9",
@@ -16,6 +17,7 @@
     "@saas/prettier": "workspace:*",
     "@saas/tsconfig": "workspace:*",
     "@types/node": "^20.12.6",
+    "prisma": "^5.12.1",
     "tsx": "^4.7.2"
   },
   "prettier": "@saas/prettier",
