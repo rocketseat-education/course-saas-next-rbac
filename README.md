@@ -9,7 +9,7 @@ This project contains all the necessary boilerplate to setup a multi-tenant SaaS
 - [ ] It should be able to authenticate using e-mail & password;
 - [ ] It should be able to authenticate using Github account;
 - [ ] It should be able to recover password using e-mail;
-- [ ] It should be able to create an account (e-mail, name and password);
+- [x] It should be able to create an account (e-mail, name and password);
 
 ### Organizations
 
