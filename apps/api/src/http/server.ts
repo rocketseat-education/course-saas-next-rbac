@@ -17,6 +17,7 @@ import { authenticateWithPassword } from '@/http/routes/auth/authenticate-with-p
 import { getProfile } from '@/http/routes/auth/get-profile'
 import { requestPasswordRecover } from '@/http/routes/auth/request-password-recover'
 import { resetPassword } from '@/http/routes/auth/reset-password'
+import { acceptInvite } from '@/http/routes/invites/accept-invite'
 import { createInvite } from '@/http/routes/invites/create-invite'
 import { getInvite } from '@/http/routes/invites/get-invite'
 import { getMembers } from '@/http/routes/members/get-members'
@@ -101,6 +102,7 @@ app.register(removeMember)
 
 app.register(createInvite)
 app.register(getInvite)
+app.register(acceptInvite)
 
 app.listen({ port: env.SERVER_PORT }).then(() => {
   console.log('HTTP server running!')
