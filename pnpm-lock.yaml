@@ -99,6 +99,9 @@ importers:
       '@saas/auth':
         specifier: workspace:*
         version: link:../../packages/auth
+      '@saas/env':
+        specifier: workspace:*
+        version: link:../../packages/env
       class-variance-authority:
         specifier: ^0.7.0
         version: 0.7.0
@@ -154,6 +157,9 @@ importers:
       '@types/react-dom':
         specifier: ^18
         version: 18.3.0
+      dotenv-cli:
+        specifier: ^7.4.1
+        version: 7.4.1
       postcss:
         specifier: ^8
         version: 8.4.38
