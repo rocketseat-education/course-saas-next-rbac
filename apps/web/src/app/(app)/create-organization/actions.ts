@@ -26,7 +26,7 @@ const organizationSchema = z
         {
           message: 'Please, enter a valid domain.',
         },
-      ),
+      ).transform((data) => data === '' ? null : data),
     shouldAttachUsersByDomain: z
       .union([z.literal('on'), z.literal('off'), z.boolean()])
       .transform((value) => value === true || value === 'on')
