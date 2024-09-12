@@ -1,6 +1,5 @@
 import { Plus } from 'lucide-react'
 import Link from 'next/link'
-import { redirect } from 'next/navigation'
 
 import { ability, getCurrentOrg } from '@/auth/auth'
 import { Button } from '@/components/ui/button'

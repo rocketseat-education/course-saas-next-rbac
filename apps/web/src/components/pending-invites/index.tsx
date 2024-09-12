@@ -18,7 +18,7 @@ export function PendingInvites() {
   const queryClient = useQueryClient()
   const [isOpen, setIsOpen] = useState(false)
 
-  const { data, isLoading, refetch } = useQuery({
+  const { data } = useQuery({
     queryKey: ['pending-invites'],
     queryFn: getPendingInvites,
     enabled: isOpen,
